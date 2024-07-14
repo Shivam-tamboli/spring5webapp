@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class BookController {
 
     private final BookRepository bookRepository;
-
+    // Constructor for dependency injection.
     public BookController(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
     }
