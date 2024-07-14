@@ -1,2 +1,4 @@
-package guru.springframework.spring5webapp;public class Foo {
+package guru.springframework.spring5webapp;
+
+public class Foo {
 }
